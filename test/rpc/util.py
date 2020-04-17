@@ -473,6 +473,7 @@ class ProjectDefinition:
         seeds=None,
     ):
         self.project = {
+            'config-version': 2,
             'name': name,
             'version': version,
             'profile': profile,

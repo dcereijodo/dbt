@@ -100,7 +100,7 @@ class TestColumnQuotingEnabled(BaseColumnQuotingTest):
             'config-version': 2,
             'seeds': {
                 'config': {
-                    'quote_columns': False,
+                    'quote_columns': True,
                 }
             },
         }
